@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Grupo 2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel6" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+                  <Component id="jPanel7" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel4" max="32767" attributes="0"/>
+                  <Component id="jPanel8" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel4" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel5" max="32767" attributes="0"/>
+                  <Component id="jPanel6" max="32767" attributes="0"/>
+                  <Component id="jPanel7" max="32767" attributes="0"/>
+                  <Component id="jPanel8" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel(){&#xa;    protected void paintComponent(Graphics g) {&#xa;        super.paintComponent(g);&#xa;        int W = jPanel1.getWidth();&#xa;        int H = jPanel1.getHeight();&#xa;        for (int i = 0; i &lt; W/2; i += 5){&#xa;            g.drawLine(i, H/2, W/2,(H/2) - i);&#xa;            g.drawLine(i, H/2, W/2,(H/2) + i);&#xa;            g.drawLine(W - i, H/2, W/2, (H/2) - i);&#xa;            g.drawLine(W - i, H/2, W/2, (H/2) + i);&#xa;        }&#xa;    }}"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="151" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel(){&#xa;    protected void paintComponent(Graphics g) {&#xa;        super.paintComponent(g);&#xa;        int W = jPanel2.getWidth();&#xa;        int H = jPanel2.getHeight();&#xa;&#xa;        int size = 20;&#xa;        int rows = H / size;&#xa;        int cols = W / size;&#xa;&#xa;        for (int i = 0; i &lt; rows; i++) {&#xa;            for (int j = 0; j &lt; cols; j++) {&#xa;                int x = j * size + size / 2;&#xa;                int y = i * size + size / 2;&#xa;                g.drawLine(x, y - size / 2, x + size / 2, y);&#xa;                g.drawLine(x + size / 2, y, x, y + size / 2);&#xa;                g.drawLine(x, y + size / 2, x - size / 2, y);&#xa;                g.drawLine(x - size / 2, y, x, y - size / 2);&#xa;            }&#xa;        }&#xa;    }&#xa;}"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="151" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="149" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel(){&#xa;    protected void paintComponent(Graphics g) {&#xa;        super.paintComponent(g);&#xa;            int W = getWidth();&#xa;            int H = getHeight();&#xa;            int squareSize = W / 3; // Tama&#xf1;o del cuadrado m&#xe1;s peque&#xf1;o&#xa;            int lineWidth = 2; // Ancho de las l&#xed;neas&#xa;            for (int i = 0; i &lt; 10; i++) { // Dibuja 3 cuadrados&#xa;                int squareX = (W - (squareSize * (i + 1))) / 2;&#xa;                int squareY = (H - (squareSize * (i + 1))) / 2;&#xa;                g.drawRect(squareX, squareY, squareSize * (i + 1), squareSize * (i + 1));&#xa;            }&#xa;        }    &#xa;}"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="151" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel(){&#xa;    protected void paintComponent(Graphics g ) {&#xa;        super.paintComponent(g);&#xa;        int W = jPanel4.getWidth();&#xa;        int H = jPanel4.getHeight();&#xa;        for (int i = 0; i &lt;= W; i += 10){&#xa;            g.drawLine(0, H / 2, W / 2, i);&#xa;            g.drawLine(W, H / 2, W / 2, i);&#xa;        }&#xa;    }&#xa;}"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="151" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel5">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel(){&#xa;    protected void paintComponent(Graphics g) {&#xa;        super.paintComponent(g);&#xa;        int W = jPanel1.getWidth();&#xa;        int H = jPanel1.getHeight();&#xa;        int lineSpacing = 5;&#xa;        int lineWidth = 1;&#xa;        int lineCount = W / lineSpacing;&#xa;        int startX = 0;&#xa;        int startY = H / 2;&#xa;        boolean finished = false;&#xa;        &#xa;        for (int i = 0; i &lt; lineCount; i++) {&#xa;            if (finished) {&#xa;                g.drawLine(startX, startY, startX + lineSpacing, 0);&#xa;            } else {&#xa;                g.drawLine(startX, startY, startX + lineSpacing, H);&#xa;            }&#xa;            startX += lineSpacing;&#xa;            finished = !finished;&#xa;        }&#xa;    }}"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="151" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="149" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel6">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel(){&#xa;    protected void paintComponent(Graphics g) {&#xa;        super.paintComponent(g);&#xa;        int W = jPanel1.getWidth();&#xa;        int H = jPanel1.getHeight();&#xa;        int centerX = W/2;&#xa;        int centerY = H/2;&#xa;        int step = 20;&#xa;        int spiderLegs = 8;&#xa;        int spiderSize = 200;&#xa;&#xa;        for (int i = 0; i &lt; spiderLegs; i++) {&#xa;            int x1 = centerX + (int) (Math.sin(Math.toRadians(i * (360 / spiderLegs))) * (spiderSize / 2));&#xa;            int y1 = centerY + (int) (Math.cos(Math.toRadians(i * (360 / spiderLegs))) * (spiderSize / 2));&#xa;            g.drawLine(centerX, centerY, x1, y1);&#xa;            for (int j = i + 1; j &lt; spiderLegs; j++) {&#xa;                int x2 = centerX + (int) (Math.sin(Math.toRadians(j * (360 / spiderLegs))) * (spiderSize / 2));&#xa;                int y2 = centerY + (int) (Math.cos(Math.toRadians(j * (360 / spiderLegs))) * (spiderSize / 2));&#xa;                g.drawLine(x1, y1, x2, y2);&#xa;            }&#xa;        }&#xa;    }&#xa;}"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel7">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel(){&#xa;    protected void paintComponent(Graphics g) {&#xa;        super.paintComponent(g);&#xa;        int W = jPanel2.getWidth();&#xa;        int H = jPanel2.getHeight();&#xa;        for (int i = 0; i &lt;= W; i += 10) {&#xa;            g.drawLine(i, H / 2, W / 2, i);&#xa;            g.drawLine(i, H / 2, W / 2, H - i);&#xa;        }&#xa;    }&#xa;}"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel8">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel(){&#xa;    protected void paintComponent(Graphics g) {&#xa;        super.paintComponent(g);&#xa;        int W = jPanel1.getWidth();&#xa;        int H = jPanel1.getHeight();&#xa;        int x = W / 2;&#xa;        int y = H / 2;&#xa;&#xa;        for (int i = 1; i &lt;= 10; i++) {&#xa;            int diameter = i * (W / 10);&#xa;            int xCoord = x - (diameter / 2);&#xa;            int yCoord = y - (diameter / 2);&#xa;            g.drawOval(xCoord, yCoord, diameter, diameter);&#xa;        }&#xa;    }}"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
